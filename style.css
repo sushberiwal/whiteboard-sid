@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  .tools {
+    height: 100px;
+    /* background: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .drawing-area {
+  }
+  .tool {
+    /* height: 80%; */
+  
+    /* width: 20%; */
+  
+    height: 55px;
+  }
+  .toolbar {
+    height: 80%;
+  
+    width: 80%;
+  
+    /* background: blueviolet; */
+  
+    /* border: 1px solid; */
+  
+    display: flex;
+  
+    align-items: center;
+  
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  
+    border-radius: 15px;
+  }
+  .tool img {
+    height: 100%;
+  
+    width: 100%;
+  }
+  #canvas {
+    /* background: brown; */
+    /* border: 1px solid ; */
+  }
+  
